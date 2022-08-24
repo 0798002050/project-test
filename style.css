@@ -1,0 +1,99 @@
+}
+.navbar{
+	width: 1200px;
+	height: 75px;
+	margin: auto;
+}
+.icon{
+	width: 200px;
+	float: left;
+	height: 70px;
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	font-family: arial;
+	padding: 20px;
+	float: left;
+	padding-top: 10px;
+
+}
+.menu{
+	width: 400px;
+	float: left;
+	height: 70px;
+	}
+ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+ul li{
+	list-style: none;
+	margin-left: 62px;
+	margin-top: 27px;
+	font-size: 14px;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+	transition: 0.4s ease.in-out;
+}
+ul li a:hover{
+	color: blue;
+
+}
+.content{
+ color: white;
+	text-align: center;
+	font-size: 100%;
+}
+.GetQuote{
+	background-color: blue;
+}
+.learnMore{
+	background-color: blue;
+}
+.become{
+	background-color: blue;
+
+}
+.button{
+	margin: 25px;
+	border-width: 20px;
+	align-items: center;
+	padding: auto;
+}
+a.btn{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 27px;
+	align-content: center;
+}
+.boxes{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	min-height: 100vh;
+	float: left;
+}
+.box{
+	position:relative ;
+	width: 300px;
+	height: 300px;
+	margin: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box p{
+	text-align: center;
+}
+.box h4{
+	text-align: center;
+}
